@@ -1,0 +1,44 @@
+ #root {
+    --darkBlue: #012A4A;
+    --oceanBlue: #01497C;
+    --medBlue: #2A6F97;
+    --lightBlue: #61A5C2;
+    --llBlue: #A9D6E5;
+    --ws: whitesmoke; 
+
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    --bs-nav-tabs-border-color:var(--lightBlue);
+    --bs-nav-tabs-link-hover-border-color:var(--llBlue);
+    --bs-nav-tabs-link-hover-color:var(--llBlue);
+    --bs-nav-tabs-link-active-color:var(--ws);
+    --bs-nav-tabs-link-active-border-color:var(--lightBlue);
+    --bs-nav-tabs-link-active-bg:var(--lightBlue);
+   
+    background-color:var(--darkBlue)
+};
+
+body {
+    background-color: var(--darkBlue);
+}
+
+ul {
+    background-color: var(--llBlue);
+}
+.nav-item {
+    background-color: var(--llBlue);
+}
+
+.nav-link :active {
+    background-color: var(--darkBlue);
+}
+.jdspecial {
+    color: var(--lightBlue);
+};
+
+p {
+color: var(--lightBlue)
+};
