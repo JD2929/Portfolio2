@@ -55,13 +55,18 @@
      padding: 20px;
  }
 
+ h2 {
+color: var(--lightBlue);
+padding: 40px;
+ }
+
  h4 {
      padding: 40px;
  }
 
  p {
      color: var(--lightBlue);
-     padding: 10px;
+     padding: 5px;
  }
 
  img {
