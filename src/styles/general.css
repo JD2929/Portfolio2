@@ -1,67 +1,88 @@
  #root {
-    --darkBlue: #012A4A;
-    --oceanBlue: #01497C;
-    --medBlue: #2A6F97;
-    --lightBlue: #61A5C2;
-    --llBlue: #A9D6E5;
-    --ws: whitesmoke; 
+     --darkBlue: #012A4A;
+     --oceanBlue: #01497C;
+     --medBlue: #2A6F97;
+     --lightBlue: #61A5C2;
+     --llBlue: #A9D6E5;
+     --ws: whitesmoke;
 
 
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 2;
-    font-weight: 400;
+     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+     line-height: 2;
+     font-weight: 400;
 
-    --bs-nav-tabs-border-color:var(--lightBlue);
-    --bs-nav-tabs-link-hover-border-color:var(--llBlue);
-    --bs-nav-tabs-link-hover-color:var(--llBlue);
-    --bs-nav-tabs-link-active-color:var(--ws);
-    --bs-nav-tabs-link-active-border-color:var(--lightBlue);
-    --bs-nav-tabs-link-active-bg:var(--lightBlue);
-    color: var(--lightBlue);
-    background-color:var(--darkBlue)
-    
-};
+     --bs-nav-tabs-border-color: var(--lightBlue);
+     --bs-nav-tabs-link-hover-border-color: var(--llBlue);
+     --bs-nav-tabs-link-hover-color: var(--llBlue);
+     --bs-nav-tabs-link-active-color: var(--ws);
+     --bs-nav-tabs-link-active-border-color: var(--lightBlue);
+     --bs-nav-tabs-link-active-bg: var(--lightBlue);
+     color: var(--lightBlue);
+     background-color: var(--darkBlue)
+ }
+
+ ;
 
 
-body {
-    background-color: var(--darkBlue);
-    color: var(--lightBlue)
-}
+ body {
+     background-color: var(--darkBlue);
+     color: var(--lightBlue)
+ }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: var(--llBlue);
-    background-color: var(--darkBlue);
-    border-color: var(--ws);
-}
+ .nav-tabs .nav-item.show .nav-link,
+ .nav-tabs .nav-link.active {
+     color: var(--llBlue);
+     background-color: var(--darkBlue);
+     border-color: var(--ws);
+ }
 
-ul {
-    background-color: var(--llBlue);
-}
+ ul {
+     background-color: var(--llBlue);
+ }
 
-.nav-item {
-    background-color: var(--llBlue);
-}
+ .nav-item {
+     background-color: var(--llBlue);
+ }
 
-.active {
-    background-color: var(--darkBlue);
-};
+ .active {
+     background-color: var(--darkBlue);
+ }
 
-h1 {
-    color: var(--lightBlue);
-    padding: 20px;
-}
+ ;
 
-h4{
-    padding: 40px;
-}
-p {
-color: var(--lightBlue);
-padding: 10px;
-}
+ h1 {
+     color: var(--lightBlue);
+     padding: 20px;
+ }
 
-img {
+ h4 {
+     padding: 40px;
+ }
+
+ p {
+     color: var(--lightBlue);
+     padding: 10px;
+ }
+
+ img {
+     width: 300px;
+     height: 500px;
+     padding-left: 0;
+     margin-left: 0;
+ }
+
+ .dog {
+     width: 300px;
+     height: 400px;
+     border-color: var(--oceanBlue);
+     border-style: solid;
+     border-width: 6px;
+ }
+
+ .building {
     width: 300px;
-    height:500px;
-    padding-left: 0;
-    margin-left: 0;
-}
+    height: 400px;
+    border-color: var(--oceanBlue);
+    border-style: solid;
+    border-width: 6px;
+ }
