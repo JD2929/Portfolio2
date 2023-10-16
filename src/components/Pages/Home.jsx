@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
 
-      <img src={Photo} alt="Photo of JD" style={{ margin: '0 10px' }} />
+      <img src={Photo} alt="Photo of JD" className= "portfolioImage" />
 
       <div style={{ textAlign: 'center', flex: 1 }}>
         <h1 style={{ margin: 0 }} className="headings">Meet JD!</h1>

@@ -1,5 +1,5 @@
-import '../../styles/card.css';
-import '../../styles/general.css';
+import '../styles/card.css';
+import '../styles/general.css';
 
 export default function Card({
     imgSrc,

@@ -12,7 +12,7 @@
      font-weight: 400;
      display: flex;
      flex-direction: column;
-     height: 100vh;
+     
 
      --bs-nav-tabs-border-color: var(--lightBlue);
      --bs-nav-tabs-link-hover-border-color: var(--llBlue);
@@ -21,7 +21,8 @@
      --bs-nav-tabs-link-active-border-color: var(--lightBlue);
      --bs-nav-tabs-link-active-bg: var(--lightBlue);
      color: var(--lightBlue);
-     background-color: var(--darkBlue)
+     background-color: var(--darkBlue);
+     min-height: 100vh;
  }
 
  ;
@@ -51,7 +52,13 @@
      background-color: var(--darkBlue);
  }
 
- 
+ .portfolioImage{
+    width: 150px;
+    height: 250px;
+    padding-left: 0;
+    margin: 0 10px;
+}
+
  h1 {
      color: var(--lightBlue);
      padding: 20px;
@@ -70,30 +77,12 @@
      color: var(--lightBlue);
      padding: 5px;
  }
-.portfolioImage{
-    width: 300px;
-    height: 500px;
-    padding-left: 0;
-    margin-left: 0;
+
+ a {
+    text-decoration: none;
+ }
+
+input {
+    max-width: 300px;
 }
- img {
-     
-     padding-left: 0;
-     margin-left: 0;
- }
-
- .dog {
-     width: 300px;
-     height: 400px;
-     border-color: var(--oceanBlue);
-     border-style: solid;
-     border-width: 6px;
- }
-
- .building {
-     width: 300px;
-     height: 400px;
-     border-color: var(--oceanBlue);
-     border-style: solid;
-     border-width: 6px;
- }
+ 

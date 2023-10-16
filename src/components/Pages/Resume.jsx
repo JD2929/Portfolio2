@@ -1,7 +1,7 @@
 import '../../styles/general.css';
 import resumePDF from'../../resources/JDResume.pdf';
 
-export default function AboutMe() {
+export default function Resume() {
   return (
     <div>
       <h1>Why hire me?</h1>
@@ -31,13 +31,9 @@ export default function AboutMe() {
       <p>
         I am now ready and willing to work with your company to develop my skills while assisting your team productively.
       </p>
-
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <h2>Full Resume</h2>
+      <a download = "JDFullResume.pdf" href = {resumePDF}>Full Resume</a>
       
-        <iframe src={resumePDF} title="Resume PDF" width = "50%"  ></iframe>
-     
-      </div>
+    
     </div>
   );
 }
