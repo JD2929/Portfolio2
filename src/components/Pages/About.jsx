@@ -1,4 +1,7 @@
 import '../../styles/general.css';
+import '../../styles/card.css';
+import Card from '../Pages/Card.jsx';
+
 import dogPhoto from '../../images/wrinkles.jpg';
 import buildingPhoto from '../../images/building.jpg';
 
@@ -26,21 +29,12 @@ export default function AboutMe() {
       <p>
         I am currently finishing a boot camp through edX and the University of Toronto’s continuing education program on full-stack development. It has been intense, but fun at the same time. I have got to meet many great people, both on the administrative and instructional side as well as my fellow bootcampers!
       </p>
-
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-       
-        <p>
-          In my spare time, I love to hike with my dog Wrinkles. He is a 6-year-old French bulldog who is my shadow. Hiking is easy as I currently reside on the side of a mountain covered in trees.
-        </p>
-
-        <img src={dogPhoto} alt="frech bulldog in red hoodie standing in the woods" className='dog' />
-
-     
-      <p>
-        My big project outside of coding boot camp is building a tiny cottage with my husband and another couple. We have the foundation ready to go and are about to put up the walls. It is great to take some time each week to do something physical and see what you can produce.
-      </p>
-      <img src={buildingPhoto} alt="a gravel bed with concrete slabs for a foundation" className='building' />
+<div className="d-flex justify-content-around flex-wrap">
+      <Card imgSrc = {dogPhoto} imgAlt = "French Bulldog in a red hoodie standing in a forest" title= "Hiking" description="In my spare time, I love to hike with my dog Wrinkles. He is a 6-year-old French bulldog who is my shadow. Hiking is easy as I currently reside on the side of a mountain covered in trees."/>
+      
+      <Card imgSrc = {buildingPhoto} imgAlt = "a gravel bed with concrete slabs for a foundation" title= "Building" description="My big project outside of coding boot camp is building a tiny cottage with my husband and another couple. We have the foundation ready to go and are about to put up the walls. It is great to take some time each week to do something physical and see what you can produce."/>
       </div>
+      
     </div>
   );
 }
