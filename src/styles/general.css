@@ -86,3 +86,6 @@ input {
     max-width: 300px;
 }
  
+.jd-label {
+    flex:  0 0 300px;
+}
