@@ -9,11 +9,15 @@ export default function Contact() {
       <p>
         Please reach out and contact me!
       </p>
-      <div className="d-flex justify-content-around flex-wrap">
-      <Form label="Name:" name="name" />
+      <div className="d-flex flex-wrap">
+
+        <Form label="Name:" name="name" />
+
+
         <Form label="Email:" name="email" />
-        <input type="submit" value="Submit"/>
-        </div>
+
+        <input type="submit" value="Submit" />
+      </div>
     </div>
   );
 }
