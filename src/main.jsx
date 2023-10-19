@@ -7,11 +7,11 @@ import './styles/general.css';
 
 import App from './App';
 //import Error from './pages/Error';
-import Home from './components/Pages/Home';
-import Contact from './components/Pages/Contact';
-import AboutMe from './components/Pages/About';
-import Portfolio from './components/Pages/Portfolio';
-import Resume from './components/Pages/Resume';
+import Home from './Pages/Home';
+import Contact from './Pages/Contact';
+import AboutMe from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import Resume from './Pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([

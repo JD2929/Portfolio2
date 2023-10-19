@@ -10,6 +10,8 @@ export default function Card({
     link,
 
 }) {
+
+   
     return (
     <div className="card">
 <img src={imgSrc} alt= {imgAlt} className="cardImage"/>

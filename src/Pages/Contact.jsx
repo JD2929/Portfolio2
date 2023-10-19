@@ -1,5 +1,6 @@
-import '../../styles/general.css';
-import Form from '../Form.jsx'
+import '../styles/general.css';
+
+import Form from '../components/Form'
 
 export default function Contact() {
   return (

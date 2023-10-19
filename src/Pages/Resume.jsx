@@ -1,5 +1,5 @@
-import '../../styles/general.css';
-import resumePDF from'../../resources/JDResume.pdf';
+import '../styles/general.css';
+import resumePDF from'../resources/JDResume.pdf';
 
 export default function Resume() {
   return (

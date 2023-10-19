@@ -1,5 +1,5 @@
-import '../../styles/general.css';
-import Photo from '../../images/PortfolioImage.png';
+import '../styles/general.css';
+import Photo from '../images/PortfolioImage.png';
 
 export default function Home() {
   return (

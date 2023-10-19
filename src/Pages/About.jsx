@@ -1,9 +1,9 @@
-import '../../styles/general.css';
-import '../../styles/card.css';
-import Card from '../Card.jsx';
+import '../styles/general.css';
+import '../styles/card.css';
+import Card from '../components/Card.jsx';
 
-import dogPhoto from '../../images/wrinkles.jpg';
-import buildingPhoto from '../../images/building.jpg';
+import dogPhoto from '../images/wrinkles.jpg';
+import buildingPhoto from '../images/building.jpg';
 
 export default function AboutMe() {
   return (
